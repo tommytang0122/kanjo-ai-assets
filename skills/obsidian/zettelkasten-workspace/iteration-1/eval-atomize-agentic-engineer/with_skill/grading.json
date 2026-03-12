@@ -1,0 +1,70 @@
+{
+  "expectations": [
+    {
+      "text": "A topic folder exists at zettelkasten/如何成為世界級 Agentic Engineer/",
+      "passed": true,
+      "evidence": "Directory exists: True"
+    },
+    {
+      "text": "Each atomic note covers exactly one concept",
+      "passed": true,
+      "evidence": "Notes with multiple H1: none"
+    },
+    {
+      "text": "Each atomic note has YAML frontmatter with title and tags",
+      "passed": true,
+      "evidence": "Missing: none"
+    },
+    {
+      "text": "Each atomic note is 10-80 lines long",
+      "passed": true,
+      "evidence": "Line counts: {\"CLAUDE.md 路由索引模式.md\": 43, \"Context 精準控制.md\": 36, \"Rules 與 Skills 的迭代管理.md\": 48, \"任務完成契約.md\": 45, \"少即是多的工具哲學.md\": 38, \"研究與實作分離.md\": 33, \"討好傾向的設計限制.md\": 40}. Out of range: none"
+    },
+    {
+      "text": "Each atomic note contains wikilinks to at least one sibling",
+      "passed": true,
+      "evidence": "Without sibling links: none"
+    },
+    {
+      "text": "No atomic note contains a backlink to the source note",
+      "passed": true,
+      "evidence": "With backlinks: none"
+    },
+    {
+      "text": "Filenames are descriptive without ID/date/source prefixes",
+      "passed": true,
+      "evidence": "Names: ['CLAUDE.md 路由索引模式.md', 'Context 精準控制.md', 'Rules 與 Skills 的迭代管理.md', '任務完成契約.md', '少即是多的工具哲學.md', '研究與實作分離.md', '討好傾向的設計限制.md']. Issues: none"
+    },
+    {
+      "text": "Source note has '## 原子筆記 (Atomic Notes)' section",
+      "passed": true,
+      "evidence": "Found: True"
+    },
+    {
+      "text": "Source list uses plain text, not wikilinks",
+      "passed": true,
+      "evidence": "Wikilinks in section: False"
+    },
+    {
+      "text": "All key concepts from the source are covered",
+      "passed": true,
+      "evidence": "{\"context management\": true, \"research/impl separation\": true, \"sycophancy\": true, \"task completion\": true, \"CLAUDE.md routing\": true, \"rules/skills mgmt\": true, \"minimalism\": true}"
+    },
+    {
+      "text": "Each note is self-contained (has explanatory prose)",
+      "passed": true,
+      "evidence": "Lacking prose: none"
+    }
+  ],
+  "summary": {
+    "passed": 11,
+    "failed": 0,
+    "total": 11,
+    "pass_rate": 1.0
+  },
+  "execution_metrics": {
+    "notes_created": 7,
+    "total_lines": 283,
+    "avg_lines_per_note": 40.4
+  }
+}

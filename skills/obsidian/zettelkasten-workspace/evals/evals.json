@@ -1,0 +1,24 @@
+{
+  "skill_name": "zettelkasten",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have a game design doc at /mnt/c/workspace/obsidian/base/Clippings/如何成為世界級 Agentic Engineer.md that's gotten huge. Can you break it into Zettelkasten notes?",
+      "expected_output": "7 atomic notes in a topic folder, source note updated with plain-text list",
+      "files": ["/mnt/c/workspace/obsidian/base/Clippings/如何成為世界級 Agentic Engineer.md"],
+      "expectations": [
+        "A topic folder exists at zettelkasten/如何成為世界級 Agentic Engineer/",
+        "Each atomic note covers exactly one concept (not mixing multiple topics)",
+        "Each atomic note has YAML frontmatter with title and tags",
+        "Each atomic note is 10-80 lines long",
+        "Each atomic note contains wikilinks to at least one sibling atomic note",
+        "No atomic note contains a backlink to the source note",
+        "Atomic note filenames are descriptive concept names without ID/date/source prefixes",
+        "Source note has a new section '## 原子筆記 (Atomic Notes)' appended",
+        "Source note's atomic notes list uses plain text, not wikilinks",
+        "All key concepts from the source are covered (context management, research/implementation separation, sycophancy, task completion, CLAUDE.md routing, rules/skills management, minimalism philosophy)",
+        "Each atomic note is self-contained (understandable without reading the source)"
+      ]
+    }
+  ]
+}

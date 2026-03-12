@@ -1,0 +1,18 @@
+{
+  "eval_id": 1,
+  "eval_name": "atomize-agentic-engineer",
+  "prompt": "Break /mnt/c/workspace/obsidian/base/Clippings/如何成為世界級 Agentic Engineer.md into Zettelkasten notes",
+  "assertions": [
+    "A topic folder exists at zettelkasten/如何成為世界級 Agentic Engineer/",
+    "Each atomic note covers exactly one concept",
+    "Each atomic note has YAML frontmatter with title and tags",
+    "Each atomic note is 10-80 lines long",
+    "Each atomic note contains wikilinks to at least one sibling",
+    "No atomic note contains a backlink to the source note",
+    "Filenames are descriptive without ID/date/source prefixes",
+    "Source note has '## 原子筆記 (Atomic Notes)' section",
+    "Source list uses plain text, not wikilinks",
+    "All key concepts from the source are covered",
+    "Each note is self-contained (has explanatory prose)"
+  ]
+}

@@ -6,11 +6,19 @@
       "Bash(gh api:*)",
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Read(//mnt/c/workspace/obsidian/zettelkasten/**)",
+      "Bash(shuf:*)",
+      "Bash(wc:*)",
+      "Bash(mkdir:*)",
+      "Read(//home/kanjo/workspace/kanjo-ai-assets/**)",
+      "Bash(python3 /tmp/grade_zettelkasten.py)",
+      "Bash(python3:*)"
     ]
   },
   "enabledPlugins": {
     "context7@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": true
+    "superpowers@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true
   }
 }

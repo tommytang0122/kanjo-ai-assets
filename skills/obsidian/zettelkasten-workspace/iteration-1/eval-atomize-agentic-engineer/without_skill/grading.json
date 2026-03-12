@@ -1,0 +1,60 @@
+{
+  "expectations": [
+    {
+      "text": "A topic folder exists",
+      "passed": true,
+      "evidence": "Directory exists: True"
+    },
+    {
+      "text": "Each note covers exactly one concept",
+      "passed": true,
+      "evidence": "Multiple H1: none"
+    },
+    {
+      "text": "Each note has YAML frontmatter with title and tags",
+      "passed": false,
+      "evidence": "Missing frontmatter: ['Context 管理.md', 'Rules Skills 與 CLAUDE.md 管理.md', 'Sycophancy 對策.md', '任務完成條件設計.md', '少即是多.md']"
+    },
+    {
+      "text": "Each note is 10-80 lines",
+      "passed": false,
+      "evidence": "Line counts: {\"Context 管理.md\": 12, \"Rules Skills 與 CLAUDE.md 管理.md\": 14, \"Sycophancy 對策.md\": 12, \"任務完成條件設計.md\": 10, \"少即是多.md\": 7}. Out of range: [('少即是多.md', 7)]"
+    },
+    {
+      "text": "Each note has wikilinks to siblings",
+      "passed": false,
+      "evidence": "Without sibling links: ['Context 管理.md', 'Rules Skills 與 CLAUDE.md 管理.md', 'Sycophancy 對策.md', '任務完成條件設計.md', '少即是多.md']"
+    },
+    {
+      "text": "No backlink to source",
+      "passed": true,
+      "evidence": "With backlinks: none"
+    },
+    {
+      "text": "Descriptive filenames, no prefixes",
+      "passed": true,
+      "evidence": "Names: ['Context 管理.md', 'Rules Skills 與 CLAUDE.md 管理.md', 'Sycophancy 對策.md', '任務完成條件設計.md', '少即是多.md']"
+    },
+    {
+      "text": "All key concepts covered",
+      "passed": true,
+      "evidence": "{\"context management\": true, \"research/impl separation\": true, \"sycophancy\": true, \"task completion\": true, \"CLAUDE.md routing\": true, \"rules/skills mgmt\": true, \"minimalism\": true}"
+    },
+    {
+      "text": "Each note is self-contained",
+      "passed": true,
+      "evidence": "Lacking prose: none"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 3,
+    "total": 9,
+    "pass_rate": 0.67
+  },
+  "execution_metrics": {
+    "notes_created": 5,
+    "total_lines": 55,
+    "avg_lines_per_note": 11.0
+  }
+}
