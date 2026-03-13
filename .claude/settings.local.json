@@ -13,7 +13,10 @@
       "Bash(mkdir:*)",
       "Read(//home/kanjo/workspace/kanjo-ai-assets/**)",
       "Bash(python3 /tmp/grade_zettelkasten.py)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(defuddle parse:*)",
+      "Bash(npx defuddle:*)",
+      "Bash(which defuddle:*)"
     ]
   },
   "enabledPlugins": {

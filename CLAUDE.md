@@ -41,3 +41,4 @@ To use a skill from this repo in a project, symlink or copy the skill's category
 2. Create a subdirectory for the skill (e.g., `skills/obsidian/my-skill/`).
 3. Add a `SKILL.md` with frontmatter and instructions.
 4. Add any supporting files in the same directory.
+5. Always create in English 
